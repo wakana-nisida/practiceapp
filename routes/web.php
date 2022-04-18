@@ -21,3 +21,4 @@ Route::get('/', function () {
 
 
 Route::get('hello', [HelloController::class, 'index']);
+Route::post('hello', [HelloController::class, 'post']);
